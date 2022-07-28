@@ -113,6 +113,6 @@ viewSideBar model =
 
 ```
 
-Can you spot the error? I've re-used the `a` as a type parameter, but that now means the type checker will insist that the uses of `showNamedList` are unified to the type in the main signature. It won't be able to do the because presumably the other fields of `Pet`s and `Sibling`s are different. Even if they are the same the `{a | now : Time}` would now be too lenient.  
+Can you spot the error? I've re-used the `a` as a type parameter, but that now means the type checker will insist that the uses of `showNamedList` are unified to the type in the main signature. It won't be able to do that because presumably the other fields of `Pet`s and `Sibling`s are different. Even if they are the same the `{a | now : Time}` would now be too lenient.  
 
 What you really  intended here was `{ anything | now : Time}`, and I think a reasonable way to write that is `{ _ | now : Time}`.
