@@ -1,0 +1,25 @@
+---
+title: "Bull shit articles"
+tags: other
+date: 2021-02-20
+---
+
+
+
+I subscribe to the RSS feed for [how-to-geek](https://www.howtogeek.com/), it often supplies timely reminders. For instance, I was a user of the [LastPass password manager](https://www.lastpass.com/), even though the interface struct me as strange, anyway how-to-geek alerted me to the fact that free tier users were going to have to choose between desktop and mobile devices as of March 16th of this year. Obviously lastpass decided that they didn't want as many free users and were pushing those free users to either take their passwords elsewhere or upgrade to premium. That's a fair choice to make, software developers need to eat and to do so someone has to pay the bills, freemium is tricky to get right. However, for me I was itching to try out other password managers anyway, so it represented a good little nudge to go ahead and do that.
+
+So How-to-geek gave a useful timely alert to me that I would not have noticed otherwise, although days later LastPass started to alert users when you went to your vault, so I guess would have known soon enough. Today on the feed however is an article that mirrors quite a few that I've seen on how-to-geek. These are articles that seem to serve pretty much no purpose as they are how-to articles detailing some procedure that is entirely obvious how to do. These articles remind me of the book; [Bullshit jobs](https://en.wikipedia.org/wiki/Bullshit_Jobs) that basically argues about the existance of meaningless jobs, basically jobs that do not need to exist. These feel like *bullshit articles*, they do not need to exist because no-one would be at all in trouble trying to do this.
+
+So the bullshit-article of today was [How to delete your last pass](https://www.howtogeek.com/714560/how-to-delete-your-lastpass-account/) account. Even if you're not a lastpass user **and** do not look at their website, I think you could make a pretty reasonable guess as to how to do this. Go to account settings. Admittedly after that there is a a step in which you have to go to your 'account' page. In the article this is linked to directly as if it is mysteriously difficult to find (it's not). From there everything is just exactly as it says on the tin. Seriously here is one of the many screenshots in that article.
+
+![last pass delete account screenshot](https://www.howtogeek.com/wp-content/uploads/2021/02/Click-Delete-From-LastPass-Delete-Your-Account-Page.png)
+
+Does anyone need this screenshot with the arrow pointing to the 'Delete' button right next to the section titled *'Delete your account'*? I think if you need that screenshot, you never would have been able to set up a lastpass account in the first place, and these screenshots probably won't help you delete it.
+
+I've picked on this article but there are a bunch of them, there are a whole load with the meanings of acryonms, such as [this one](https://www.howtogeek.com/711555/what-does-jk-mean-and-how-do-you-use-it/) which explains the meaning of *'JK'*. I mean does this need an article? The meaning of *'JK'* is *'just kidding'*. There I did it in a single small sentence. Why did this require a full article? One in which the actual answer is deliberately hidden beyond the reach of the search engine summaries so that you actually have to visit the site. There are a bunch of how-to articles where basically the answer is "follow the obvious on-screen instructions". Example [one](https://www.howtogeek.com/709326/how-to-connect-bluetooth-headphones-to-a-nintendo-switch/), [two](https://www.howtogeek.com/713715/how-to-hide-your-phone-number-in-telegram/), and [three](https://www.howtogeek.com/710003/how-to-make-safari-always-open-your-previous-tabs-on-mac/).
+
+I have two theories about how why these articles exist:
+1. They are basically public service announcements. You do not actually need the entire article you just need the headline which alerts you to the fact that such a thing is possible. Such as the Telegram hide your phone number one, once you know that hiding your telephone number in Telegram is possible, figuring out how to do it is trivial, you do not need the article, however having the article pop up on your feed alerting you to the possiblity is quite helpful. With the last-pass delete your account one, many people will have taken the opportunity to switch password managers, and maybe kept the last pass one around for a few days *'just in case'*. So this article was a timely reminder to delete your last pass account. It could just have been the headline plus one paragraph, nobody needed the screenshots or in-depth instructions.
+2. Such articles are mostly search-engine fodder. Filling up your site with lots of currently-topical content, and easy to link to articles which people can shove in their articles to save them a few words explaining how to do something.
+
+Still, writing such articles must be pretty joyless. Imagine having to write an article about how to delete a last pass account and actually having to spend time to take a screenshot and draw a little arrow to the 'Delete' button. 
