@@ -4,6 +4,7 @@ description: Musings on my extremely mild preference for snake-case over camel-c
 date: 2021-01-01
 ---
 
+**Update**: A couple of experiments that seem to give contradicting results for which case style is better for actually recognising identifier names: [Camel > Snake](https://chuniversiteit.nl/papers/why-camel-case-is-better-than-snake-case) and [Snake > Camel](https://chuniversiteit.nl/papers/why-snake-case-is-better-than-camel-case).
 
 Often when naming entities whilst programming we are forced to combine several words into a single lexical token.
 So instead of writing `my function` we have to call it `my_function`(snake case) or `myFunction`(camel case), or

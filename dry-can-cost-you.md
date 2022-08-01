@@ -11,8 +11,8 @@ I haven't quite gotten to the bottom of **why** the library version of `greedyGr
 To see why, let's look first at my naive version:
 
 ```elm
-greedGroupsOf : Int -> List a -> List (List a)
-greedGroupsOf size elements =
+greedyGroupsOf : Int -> List a -> List (List a)
+greedyGroupsOf size elements =
     case elements of
         [] ->
             []
@@ -57,4 +57,4 @@ greedyGroupsOfWithStep size step xs =
 
 As I've mentioned I'm not entirely sure why this is so much slower than the more specific function. There is one thing it does. Because the step and the size might be different it cannot use `List.splitAt` and has to do two separate `List.drop` and `List.take` operations. This is because in the more general function you can have a different step size to that of the group size, a lower step size will mean that some elements are in more than one group, whilst a larger step size will mean some elements are omitted entirely.
 
-Anyway, this means that `greedGroupsOf` is slower than it needs to be, because it is a simple invocation of the more general function. In this case, it might be worth just using the specialised implementation of the function. It means repeating some code, or logic, but in this case I doubt that's so bad, these implementations are unlikely to change, and they are probably correct.
+Anyway, this means that `greedyGroupsOf` is slower than it needs to be, because it is a simple invocation of the more general function. In this case, it might be worth just using the specialised implementation of the function. It means repeating some code, or logic, but in this case I doubt that's so bad, these implementations are unlikely to change, and they are probably correct.
