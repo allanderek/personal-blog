@@ -4,7 +4,10 @@ tags: programming
 date: 2021-03-14
 ---
 
+**Update** We have started using [Constructor](https://app.constructor.dev/) which allows us to do relative issue priority ordering. The team are very responsive to feedback as well which is great. Recommended.
+
 For projects involving more than one person, I'm typically using github or gitlab, either has a pretty usable issues feature. For the most part with issues all I want is the ability to write some text, preferably in markdown. The ability to add screenshots is a major plus. The checkboxes are nice as well, but I'd be happy to write those myself in markdown, ie. I don't really need the ability to check a checkbox with the mouse, but it's a nice touch I guess.
+
 
 What no issue tracking feature I've found has, is the ability to do relative priority. Most issue trackers allow for priority, but that is an absolute measure. Typically you can provide a priority entered as an 'integer'. But I find this mostly useless. What I really want to do is when creating a new issue, be forced to place it somewhere in the list of issues ordered by priority. Decide what issue it has higher priority than, and place it there in the list. This also means that as you close issues the priorities of the open issues are automatically updated. Obviously this does not work whenever your issue tracker is public, though even then you could have a public issue tracker and then triage those submitted into an internal priority-sorted issue tracker.
 
